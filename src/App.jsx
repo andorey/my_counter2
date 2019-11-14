@@ -1,0 +1,1 @@
+import React from 'react';const App = () => {		return (			<div>				<h1>Hello world!</h1>				<input type="text"/>				<ul>					<li>Drink Coffee</li>					<li>Drink some tea</li>				</ul>			</div>		)};export default App;
