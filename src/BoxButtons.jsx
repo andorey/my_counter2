@@ -1,0 +1,1 @@
+import React from 'react';import "./App.css";// import BoxButton from "./BoxButton";const BoxButtons = (props) => {	return (		<div className="boxButtons">			<button onClick={props.onClickUp}> Int </button>			<button onClick={props.onResetClick}> Rst </button>		</div>	)};export default BoxButtons;

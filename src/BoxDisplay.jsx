@@ -1,1 +1,1 @@
-import React from 'react';import "./App.css";const BoxDisplay = () => {	let count = {		startItem: 0,		maxItem: 5	};	return <div className="boxDisplay">		{count.startItem}	</div>};export default BoxDisplay;
+import React from 'react';import "./App.css";const BoxDisplay = (props) => {debugger;	return (		<div className={props.cItem}>			{props.startItem}		</div>	);};export default BoxDisplay;

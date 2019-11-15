@@ -1,1 +1,1 @@
-import React from 'react';import "./App.css";const BoxButtons = () => {	return (		<div className="boxButtons">			<button>Int</button>			<button>Rst</button>		</div>	)};export default BoxButtons;
+import React from 'react';const BoxButton = () => {	return <span>Int</span>;};export default BoxButton;
