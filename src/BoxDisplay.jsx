@@ -1,0 +1,1 @@
+import React from 'react';import "./App.css";const BoxDisplay = () => {	let count = {		startItem: 0,		maxItem: 5	};	return <div className="boxDisplay">		{count.startItem}	</div>};export default BoxDisplay;
