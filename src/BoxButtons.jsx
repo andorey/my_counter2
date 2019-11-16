@@ -1,1 +1,0 @@
-import React from 'react';import "./App.css";const BoxButtons = (props) => {	return (		<div className="boxButtons">			<button onClick={props.onClickUp}					disabled={props.buttDisable}> Int </button>			<button onClick={props.onResetClick}> Rst </button>		</div>	)};export default BoxButtons;

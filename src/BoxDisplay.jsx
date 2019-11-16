@@ -1,1 +1,0 @@
-import React from 'react';import "./App.css";const BoxDisplay = (props) => {	return (		<div className="boxDisplay">			<div className={props.maxVal}>				{props.startItem}			</div>		</div>	);};export default BoxDisplay;
